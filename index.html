@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/imgs/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/imgs/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/imgs/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/imgs/favicon/site.webmanifest">
+    <!-- Style.css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Portafolio</title>
+</head>
+
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-person-circle text-warning fw-bold"> VZ</i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero-section" class="py-5 mt-5 text-light">
+        <div class="container">
+            <div class="row justify-content-around align-items-center pt-5">
+                <div class="col-sm-6 col-md-6 col-lg-4 ps-5">
+                    <img src="./assets/imgs/vz-presentacion.png" class="img-size img-fluid rounded-circle border border-warning border-4"  alt="Foto de perfil Victor Zamorano">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-end ">
+                    <h2 class="fw-bolder fs-2">¡Hola! mi nombre es Víctor Zamorano</h2>
+                    <p class="fs-3">Soy Desarrollador web Fullstack</p>
+                    <a href="#about-me" class="btn btn-outline-warning fw-bold">Acerca de mí</a>
+                </div>
+            </div>      
+        </div>
+    </header>
+
+    <main>
+        <!-- ACERCA DE MI -->
+        <section id="about-me" class="bg-dark text-light text-center py-5">
+            <div class="container width-text">
+                <h1 class="fw-bold">ACERCA<span> DE MÍ</span></h1>
+                <p class="fs-5 pt-2">Soy desarrollador Fullstack y ayudo a personas y empresas a crear un entorno web agradable y eficiente para todos sus usuarios. Para llevar acabo esto, poseo conocimientos en React, NodeJS, JavaScript, Bootstrap, HTML, CSS y MongoDB de los mas destacables.</p>
+            </div>
+            <img src="./assets/imgs/aboutme.png" class="rounded-pill mx-auto d-block py-2" alt="">
+            <div class="button pt-5">
+                <button class="btn btn-outline-warning fw-bold py-2"><i class="bi bi-arrow-down"></i>Proyectos recientes<i class="bi bi-arrow-down"></i></button>
+            </div>
+        </section>
+        <!-- ACERCA DE MI END -->
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="py-3 text-light misproyectos">
+            <h2 class="text-center fs-1 fw-bold pt-5"><span>MIS</span> PROYECTOS</h2>
+            <div class="container">
+                <div class="row py-3">
+                    <!-- PROYECTO 1 -->
+                    <article class="col-sm-12 col-md-6 col-lg-4 py-3">
+                        <div class="card bg-dark border-warning">
+                            <img src="./assets/imgs/def1.png" class="card-img-top" alt="proyecto1">
+                            <div class="card-body">
+                                <h5 class="card-title">Desafío 1</h5>
+                                <p class="card-text">Proyecto basado en el curriculum vitae.</p>
+                                <a href="https://ipolloyo.github.io/Desafio_1-curriculum/" target="_blank" class="btn btn-warning fw-bold text-dark">Ver más</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- PROYECTO 1 END -->
+                    <!-- PROYECTO 2 -->
+                    <article class="col-sm-12 col-md-6 col-lg-4 py-3">
+                        <div class="card bg-dark border-warning">
+                            <img src="./assets/imgs/def2.png" class="card-img-top" alt="proyecto2">
+                            <div class="card-body">
+                                <h5 class="card-title">Desafío 2</h5>
+                                <p class="card-text">Proyecto de practica básico para crear filas y un método simple de mostrar y/o venta de algún producto.</p>
+                                <a href="https://ipolloyo.github.io/desafio_2-lading_page/" target="_blank" class="btn btn-warning fw-bold text-dark">Ver más</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- PROYECTO 2 END -->
+                    <!-- PROYECTO 3 -->
+                    <article class="col-sm-12 col-md-6 col-lg-4 py-3">
+                        <div class="card bg-dark border-warning">
+                            <img src="./assets/imgs/def3.png" class="card-img-top" alt="proyecto3">
+                            <div class="card-body">
+                                <h5 class="card-title">Desafío 3</h5>
+                                <p class="card-text">Proyecto realizado de practica en el cual se busca copiar una maqueta entregada por Desafío LATAM.</p>
+                                <a href="https://ipolloyo.github.io/desafio_3_iguanapage/" target="_blank" class="btn btn-warning fw-bold text-dark">Ver más</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- PROYECTO 3 END -->
+                    <!-- PROYECTO 4 -->
+                    <article class="col-sm-12 col-md-6 col-lg-4 py-3">
+                        <div class="card bg-dark border-warning">
+                            <img src="./assets/imgs/def4.png" class="card-img-top" alt="proyecto4">
+                            <div class="card-body">
+                                <h5 class="card-title">Desafío 4</h5>
+                                <p class="card-text">Proyecto en el que se busca copiar el diseño de páginas como Groupon o cuponatic de acuerdo a la maqueta entregada por Desafío LATAM.</p>
+                                <a href="https://ipolloyo.github.io/desafio_4_bootstrap/" target="_blank" class="btn btn-warning fw-bold text-dark">Ver más</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- PROYECTO 4 END -->
+                    <!-- PROYECTO 5 -->
+                    <article class="col-sm-12 col-md-6 col-lg-4 py-3">
+                        <div class="card bg-dark border-warning">
+                            <img src="./assets/imgs/def5.png" class="card-img-top" alt="proyecto5">
+                            <div class="card-body">
+                                <h5 class="card-title">Desafío 5</h5>
+                                <p class="card-text">Proyecto enfocado en la implementación de GitHub, tanto para repositorios locales como forkeados.</p>
+                                <a href="https://ipolloyo.github.io/fdsw-github/" target="_blank" class="btn btn-warning fw-bold text-dark">Ver más</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- PROYECTO 5 END -->
+                </div>
+            </div>
+        </section>
+        <!-- PROYECTOS END -->
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="container my-5">
+            <h2 class="">Contáctame</h2>
+            <form>
+                <div class="form-group mb-4">
+                    <label class="mb-2">Nombre</label>
+                    <input class="form-control" placeholder="Nombre">
+                 </div>
+
+                <div class="form-group mb-4">
+                    <label class="mb-2">Correo electrónico</label>
+                    <input class="form-control" placeholder="Correo electrónico" />
+                </div>
+
+                <div class="form-group">
+                    <label class="mb-2">Mensaje</label>
+                    <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+                </div>
+
+                <div class="my-3 text-end">
+                    <button class="btn btn-warning text-dark fw-bold">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <!-- CONTACTO END -->
+
+        <footer class="bg-dark text-center text-light p-4">
+            <p class="mb-0">Victor Zamorano 2022. Todos los derechos reservados.</p>
+        </footer>
+
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
