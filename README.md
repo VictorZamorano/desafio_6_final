@@ -13,3 +13,6 @@
 ##Fork
 - Fork a  FernandoLorca [Ver](https://github.com/iPolloyo/desarrollo-portafolio) 
 - Fork a  deimosrasiv [Ver](https://github.com/iPolloyo/desafio_03)
+
+
+# [Proyecto forkeado desde Repo iPolloyo ] (https://jesedadl2023.github.io/desafio_6_final/)
